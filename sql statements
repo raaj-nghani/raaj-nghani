@@ -1,1 +1,3 @@
 select max(slary) from emptbl where (select salary < max(salary) from emptbl)
+
+DML (Data Menipulation Language)
